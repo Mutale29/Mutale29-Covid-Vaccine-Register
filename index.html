@@ -9,6 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <title>Covid Vaccine Register </title>
+    <link href="styles/style.css" rel="stylesheet"> <!--reference the style sheet-->
+        <!--<link rel="preconnect" href="https://fonts.gstatic.com">-->
+        <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
   </head>
   <body>
     <h1> Covid Vaccine Register</h1>
@@ -19,12 +22,25 @@
             <input type="text" id="fname" name="fname"><br>
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname"><br>
-            <label for="date">Date of Vaccine:</label><br>
+            <label for="date">Date of Vaccination</label><br>
             <input type="text" id="date" name="date"><br>
+            <label for="loc">Vaccine Administered:</label><br>
+            <input type="text" id="loc" name="loc"><br> 
             <label for="loc">Place of vaccination:</label><br>
             <input type="text" id="loc" name="loc"><br>    
 
         </form>
+        <br>
+        <table style="width:100%" id="tbl">
+            <tr style="text-align: left;">
+              <th>Firstname</th>
+              <th>Last name</th>
+              <th>Date of Vaccination</th>
+              <th>Vaccine Administered</th>
+              <th>Place</th>
+            </tr>
+          </table>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

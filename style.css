@@ -1,0 +1,14 @@
+html{
+    background-color:rgb(245, 218, 237) ;
+    font-size: 10px;
+    font-family: Georgia, serif;
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    text-shadow: 3px; /* four values: horizontal offset, vertical offset, blur radius, bas colour of shadprw*/
+    /*margin:0*/
+    /*padding:20pc 0;*/ /*some additional code*/
+}
