@@ -99,6 +99,6 @@ router.post("/", function (req, res) {
 app.use("/", router);
 
 // Starting the server
-app.listen(3003, () => {
-  console.log("Server started (http://localhost:3003/) !");
+app.listen(3001, () => {
+  console.log("Server started (http://localhost:3001/) !");
 });
